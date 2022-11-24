@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2173b0e7-a027-45db-ad6e-126c29b45e59" name="Changes" comment="The remake of the to do it">
+    <list default="true" id="2173b0e7-a027-45db-ad6e-126c29b45e59" name="Changes" comment="All dao and impl done, next do logics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/AppUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/AppUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/AppUserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/AppUserDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/PersonDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/PersonDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/ToDoItemDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/ToDoItemDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/ToDoItemTaskDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/ToDoItemTaskDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/ToDoItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/ToDoItemDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/ToDoItemTaskDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/ToDoItemTaskDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/AppUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1669283842061</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="All dao and impl done, next do logics">
+      <created>1669285478113</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1669285478113</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,6 +80,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The remake of the to do it" />
-    <option name="LAST_COMMIT_MESSAGE" value="The remake of the to do it" />
+    <MESSAGE value="All dao and impl done, next do logics" />
+    <option name="LAST_COMMIT_MESSAGE" value="All dao and impl done, next do logics" />
   </component>
 </project>

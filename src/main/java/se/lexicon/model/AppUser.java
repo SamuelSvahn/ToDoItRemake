@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class AppUser {
 
+    private int id;
     private String username;
     private String password;
     private AppRole role;
@@ -12,6 +13,15 @@ public class AppUser {
 
 
     //Setters and Getters
+
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getUserName() {
         return username;

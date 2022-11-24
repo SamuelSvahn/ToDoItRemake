@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2173b0e7-a027-45db-ad6e-126c29b45e59" name="Changes" comment="two implement classes done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/AppUserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/AppUserDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/PersonDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/PersonDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/ToDoItemDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/ToDoItemDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/ToDoItemTaskDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/ToDoItemTaskDAOImpl.java" afterDir="false" />
+    <list default="true" id="2173b0e7-a027-45db-ad6e-126c29b45e59" name="Changes" comment="all classes implemented">
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/AppUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1669287525966</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="all classes implemented">
+      <created>1669292038907</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1669292038907</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +90,7 @@
     <MESSAGE value="The remake of the to do it" />
     <MESSAGE value="All dao and impl done, next do logics" />
     <MESSAGE value="two implement classes done" />
-    <option name="LAST_COMMIT_MESSAGE" value="two implement classes done" />
+    <MESSAGE value="all classes implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="all classes implemented" />
   </component>
 </project>

@@ -12,9 +12,13 @@ public class AppUser {
     //Constructors
 
 
+    public AppUser(int id, String username, AppRole role) {
+        setId(id);
+        setUserName(username);
+        setRole(role);
+    }
+
     //Setters and Getters
-
-
     public int getId() {
         return id;
     }

@@ -12,6 +12,18 @@ public class ToDoItemTask {
 
     // Constructor
 
+    public ToDoItemTask(int id, boolean assigned, ToDoItem toDoItem, Person assignee) {
+        setId(id);
+        setAssigned(assigned);
+        setToDoItem(toDoItem);
+        setAssignee(assignee);
+    }
+
+    public ToDoItemTask(int id, boolean assigned, ToDoItem toDoItem) {
+        setId(id);
+        setAssigned(assigned);
+        setToDoItem(toDoItem);
+    }
 
     //Setters and Getters
 

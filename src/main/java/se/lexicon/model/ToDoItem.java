@@ -15,7 +15,21 @@ public class ToDoItem {
 
     // Constructors
 
+    public ToDoItem(int id, String title, String description, LocalDate deadline) {
+        setId(id);
+        setTitle(title);
+        setDescription(description);
+        setDeadline(deadline);
+    }
 
+    public ToDoItem(int id, String title, String description, LocalDate deadline, boolean done, Person creator) {
+        setId(id);
+        setTitle(title);
+        setDescription(description);
+        setDeadline(deadline);
+        setDone(done);
+        setCreator(creator);
+    }
     // Getters and setters
 
 

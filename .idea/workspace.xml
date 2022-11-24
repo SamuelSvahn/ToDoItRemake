@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2173b0e7-a027-45db-ad6e-126c29b45e59" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/AppUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/AppUserDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/PersonDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/ToDoItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/Implementations/ToDoItemTaskDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/ToDoItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Dao/ToDoItemTaskDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Sequencers/AppUserIdSequencers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Sequencers/PersonIdSequencer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Sequencers/ToDoItemSequencer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Sequencers/ToDoItemTaskIdSequencers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/AppRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/AppUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/ToDoItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/ToDoItemTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/lexicon/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HzAUKThiyb8KI4KpdggeOyofLp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2173b0e7-a027-45db-ad6e-126c29b45e59" name="Changes" comment="" />
+      <created>1669277557411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669277557411</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

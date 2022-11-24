@@ -18,14 +18,15 @@ public class AppUserDAOImpl implements AppUserDao {
     private AppUserDAOImpl() {
         userStorage = new ArrayList<>();
     }
-    public static AppUserDAOImpl getInstance(){
-        if(instance== null) instance = new AppUserDAOImpl();
+
+    public static AppUserDAOImpl getInstance() {
+        if (instance == null) instance = new AppUserDAOImpl();
         return instance;
     }
 
     @Override
     public AppUser add(AppUser appUser) {
-        if(appUser ==null) throw new IllegalArgumentException("Appuser was null");
+        if (appUser == null) throw new IllegalArgumentException("Appuser was null");
         appUser.setId(AppUserIdSequencers.nextId());
         userStorage.add(appUser);
         return appUser;
@@ -33,9 +34,9 @@ public class AppUserDAOImpl implements AppUserDao {
 
     @Override
     public AppUser findByUsername(String username) {
-        if(username== null) throw new IllegalArgumentException("Username was null");
-        for(AppUser appUser: userStorage)
-            if(appUser.getUserName().equalsIgnoreCase(username)) return appUser;
+        if (username == null) throw new IllegalArgumentException("Username was null");
+        for (AppUser appUser : userStorage)
+            if (appUser.getUserName().equalsIgnoreCase(username)) return appUser;
         return null;
     }
 
@@ -46,9 +47,9 @@ public class AppUserDAOImpl implements AppUserDao {
 
     @Override
     public void remove(String username) {
-        AppUser remove=findByUsername(username);
-            if(remove== null) throw new IllegalArgumentException("does not exist");
-            userStorage.remove(remove);
+        AppUser remove = findByUsername(username);
+        if (remove == null) throw new IllegalArgumentException("does not exist");
+        userStorage.remove(remove);
 
     }
 }

@@ -14,25 +14,19 @@ public class PersonDAOImpl implements PersonDAO {
 
     private static PersonDAOImpl instance;
 
-    private PersonDAOImpl(){
-        personStorage= new ArrayList<>();
+    private PersonDAOImpl() {
+        personStorage = new ArrayList<>();
     }
 
-    public static PersonDAOImpl getInstance(){
-        if(instance== null) instance= new PersonDAOImpl();
+    public static PersonDAOImpl getInstance() {
+        if (instance == null) instance = new PersonDAOImpl();
         return instance;
     }
 
 
-
-
-
-
-
-
     @Override
     public Person add(Person person) {
-        if( person== null) throw new IllegalArgumentException("Person was empty");
+        if (person == null) throw new IllegalArgumentException("Person was empty");
         person.setId(PersonIdSequencer.nextId());
         personStorage.add(person);
         return person;
@@ -40,17 +34,17 @@ public class PersonDAOImpl implements PersonDAO {
 
     @Override
     public Person findById(int id) {
-        if(id==0) throw new IllegalArgumentException("Id was null");
-        for(Person person: personStorage)
-            if(person.getId()==id) return person;
+        if (id == 0) throw new IllegalArgumentException("Id was null");
+        for (Person person : personStorage)
+            if (person.getId() == id) return person;
         return null;
     }
 
     @Override
     public Person findByEmail(String email) {
-        if(email == null) throw new IllegalArgumentException("Email was null");
-        for(Person person : personStorage)
-            if(person.getEmail().equalsIgnoreCase(email)) return person;
+        if (email == null) throw new IllegalArgumentException("Email was null");
+        for (Person person : personStorage)
+            if (person.getEmail().equalsIgnoreCase(email)) return person;
         return null;
     }
 
@@ -61,8 +55,8 @@ public class PersonDAOImpl implements PersonDAO {
 
     @Override
     public void remove(int id) {
-        Person remove= findById(id);
-        if(remove== null) throw new IllegalArgumentException("id did not exist");
+        Person remove = findById(id);
+        if (remove == null) throw new IllegalArgumentException("id did not exist");
         personStorage.remove(remove);
 
     }

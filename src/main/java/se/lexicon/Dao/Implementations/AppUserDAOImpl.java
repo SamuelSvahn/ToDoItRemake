@@ -9,7 +9,7 @@ public class AppUserDAOImpl implements AppUserDao {
 
 
     @Override
-    public AppUser persists(AppUser appUser) {
+    public AppUser add(AppUser appUser) {
         return null;
     }
 

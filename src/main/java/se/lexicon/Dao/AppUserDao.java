@@ -6,7 +6,7 @@ import java.util.Collection;
 
 public interface AppUserDao {
 
-    AppUser persists(AppUser appUser);
+    AppUser add(AppUser appUser);
 
     AppUser findByUsername(String username);
 

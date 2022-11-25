@@ -25,6 +25,11 @@ public class ToDoItemTask {
         setToDoItem(toDoItem);
     }
 
+    public ToDoItemTask(ToDoItem toDoItem, Person assignee){
+        setToDoItem(toDoItem);
+        setAssignee(assignee);
+    }
+
     //Setters and Getters
 
 
@@ -63,9 +68,8 @@ public class ToDoItemTask {
     @Override
     public String toString() {
         return "ToDoItemTask{" +
-                "id=" + id +
-                ", assigned=" + assigned +
-                ", toDoItem=" + toDoItem +
+                "toDoItem=" + toDoItem +
+                ", assignee=" + assignee +
                 '}';
     }
 

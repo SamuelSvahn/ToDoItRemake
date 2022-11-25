@@ -13,6 +13,9 @@ public class Person {
 
     //Constructors
 
+    public Person(){
+
+    }
     public Person(int id, String firstName, String lastName, String email, AppUser credentials) {
         setId(id);
         setFirstName(firstName);
@@ -21,10 +24,10 @@ public class Person {
         setCredentials(credentials);
     }
 
-    public Person(int id, String firstName, String lastName) {
-        setId(id);
+    public Person(String firstName, String lastName, AppUser credentials) {
         setFirstName(firstName);
         setLastName(lastName);
+        setCredentials(credentials);
     }
 
     //Getters and setters
@@ -76,10 +79,8 @@ public class Person {
     @Override
     public String toString() {
         return "Person{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
+                "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
                 '}';
     }
 

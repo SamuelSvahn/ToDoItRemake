@@ -15,8 +15,7 @@ public class ToDoItem {
 
     // Constructors
 
-    public ToDoItem(int id, String title, String description, LocalDate deadline) {
-        setId(id);
+    public ToDoItem(String title, String description, LocalDate deadline) {
         setTitle(title);
         setDescription(description);
         setDeadline(deadline);
@@ -94,11 +93,9 @@ public class ToDoItem {
     @Override
     public String toString() {
         return "ToDoItem{" +
-                "id=" + id +
-                ", title='" + title + '\'' +
+                "title='" + title + '\'' +
                 ", description='" + description + '\'' +
                 ", deadline=" + deadline +
-                ", done=" + done +
                 '}';
     }
 

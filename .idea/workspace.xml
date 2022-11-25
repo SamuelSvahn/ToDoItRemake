@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2173b0e7-a027-45db-ad6e-126c29b45e59" name="Changes" comment="all classes implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/View/ConsoleUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/View/MenuActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/AppUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/ToDoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/ToDoItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/ToDoItemTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/ToDoItemTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -72,7 +79,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1669292038907</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="all classes implemented">
+      <created>1669292350849</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1669292350849</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -76,11 +76,14 @@ public class Person {
         this.credentials = credentials;
     }
 
+
     @Override
     public String toString() {
         return "Person{" +
-                "firstName='" + firstName + '\'' +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
+                ", credentials=" + credentials +
                 '}';
     }
 

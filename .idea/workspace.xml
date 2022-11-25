@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2173b0e7-a027-45db-ad6e-126c29b45e59" name="Changes" comment="Working on implementing design pattern">
+    <list default="true" id="2173b0e7-a027-45db-ad6e-126c29b45e59" name="Changes" comment="Started working on Controller class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/View/ConsoleUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/View/ConsoleUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.App" />
+      <module name="ToDoItRemake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,7 +107,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1669388319844</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Started working on Controller class">
+      <created>1669389164986</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1669389164986</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +133,7 @@
     <MESSAGE value="two implement classes done" />
     <MESSAGE value="all classes implemented" />
     <MESSAGE value="Working on implementing design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on implementing design pattern" />
+    <MESSAGE value="Started working on Controller class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started working on Controller class" />
   </component>
 </project>

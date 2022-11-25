@@ -68,7 +68,8 @@ public class ToDoItemTask {
     @Override
     public String toString() {
         return "ToDoItemTask{" +
-                "toDoItem=" + toDoItem +
+                "id=" + id +
+                ", toDoItem=" + toDoItem +
                 ", assignee=" + assignee +
                 '}';
     }

@@ -13,9 +13,10 @@ public class Person {
 
     //Constructors
 
-    public Person(){
+    public Person() {
 
     }
+
     public Person(int id, String firstName, String lastName, String email, AppUser credentials) {
         setId(id);
         setFirstName(firstName);

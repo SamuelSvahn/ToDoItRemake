@@ -27,43 +27,43 @@ public class Controller {
     AppUserDao appUserDao;
 
 
-    public Controller(){
-    ui = new ConsoleUI();
-    personDAO = PersonDAOImpl.getInstance();
-    toDoItemDAO = ToDoItemDAOImpl.getInstance();
-    toDoItemTaskDAO= ToDoItemTaskDAOImpl.getInstance();
-    appUserDao= AppUserDAOImpl.getInstance();
+    public Controller() {
+        ui = new ConsoleUI();
+        personDAO = PersonDAOImpl.getInstance();
+        toDoItemDAO = ToDoItemDAOImpl.getInstance();
+        toDoItemTaskDAO = ToDoItemTaskDAOImpl.getInstance();
+        appUserDao = AppUserDAOImpl.getInstance();
 
     }
 
-    public void doMainMenu(){
+    public void doMainMenu() {
 
-        while(true){
+        while (true) {
             MenuActions commands = ui.displayMenu();
-                switch (commands){
-                    case REGISTER:
-                        startRegister();
-                        break;
-                    case CREATE_TASK:
-                        startCreatingTask();
-                        break;
-                    case DISPLAY_USERS:
-                        startDisplayUsers();
-                        break;
-                    case DISPLAY_TASKS:
-                        startDisplayTasks();
-                        break;
-                    case EXIT:
-                        System.exit(0);
-                }
+            switch (commands) {
+                case REGISTER:
+                    startRegister();
+                    break;
+                case CREATE_TASK:
+                    startCreatingTask();
+                    break;
+                case DISPLAY_USERS:
+                    startDisplayUsers();
+                    break;
+                case DISPLAY_TASKS:
+                    startDisplayTasks();
+                    break;
+                case EXIT:
+                    System.exit(0);
+            }
         }
 
     }
 
-    public void startRegister(){
-        Person personInformation= ui.getPersonInformation();
+    public void startRegister() {
+        Person personInformation = ui.getPersonInformation();
 
-        AppUser appUser=personInformation.credentials;
+        AppUser appUser = personInformation.credentials;
         AppUser createdUser = appUserDao.add(appUser);
 
         personInformation.setCredentials(createdUser);
@@ -73,35 +73,35 @@ public class Controller {
 
     }
 
-    public void startCreatingTask(){
+    public void startCreatingTask() {
         ToDoItemTask toDoItemTaskData = ui.getTodoItemData();
         Person person = toDoItemTaskData.getAssignee();
 
-        Person foundPerson=personDAO.findById(person.getId());
+        Person foundPerson = personDAO.findById(person.getId());
 
         toDoItemTaskData.setAssignee(foundPerson);
-        ToDoItemTask createdToDoItem= toDoItemTaskDAO.add(toDoItemTaskData);
+        ToDoItemTask createdToDoItem = toDoItemTaskDAO.add(toDoItemTaskData);
 
         ui.displayToDoInformation(createdToDoItem);
 
 
     }
 
-    public void startDisplayTask(ToDoItemTask toDoItemTask){
+    public void startDisplayTask(ToDoItemTask toDoItemTask) {
         ui.displayToDoInformation(toDoItemTask);
     }
 
-    public void startDisplayTasks(){
-        Collection<ToDoItemTask> toDoItemTaskList= toDoItemTaskDAO.findAll();
+    public void startDisplayTasks() {
+        Collection<ToDoItemTask> toDoItemTaskList = toDoItemTaskDAO.findAll();
         ui.displayToDoInformation(toDoItemTaskList);
 
     }
 
-    public void startDisplayPerson(Person person){
+    public void startDisplayPerson(Person person) {
         ui.displayUsers(person);
     }
 
-    public void startDisplayUsers(){
+    public void startDisplayUsers() {
         Collection<Person> personList = personDAO.findAll();
         ui.displayUsers(personList);
 

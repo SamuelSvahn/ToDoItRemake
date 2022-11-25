@@ -12,7 +12,7 @@ public class AppUser {
     //Constructors
 
 
-    public AppUser(String username, String password,AppRole role) {
+    public AppUser(String username, String password, AppRole role) {
         setUserName(username);
         setPassword(password);
         setRole(role);

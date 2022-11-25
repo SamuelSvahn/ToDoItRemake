@@ -1,5 +1,5 @@
-## This is my remake for To Do It
+## This is my To Do It Project
 
-### Made by me again.
+### Made by me.
 
-#### Yours truly, Samuel
+#### Yours truly, Samuel.

@@ -9,7 +9,7 @@ public interface ToDoItemDAO {
 
     ToDoItem add(ToDoItem toDoItem);
 
-    ToDoItem findByID( int id);
+    ToDoItem findByID(int id);
 
     Collection<ToDoItem> findAll();
 

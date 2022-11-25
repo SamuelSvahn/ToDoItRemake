@@ -25,7 +25,7 @@ public class ToDoItemTask {
         setToDoItem(toDoItem);
     }
 
-    public ToDoItemTask(ToDoItem toDoItem, Person assignee){
+    public ToDoItemTask(ToDoItem toDoItem, Person assignee) {
         setToDoItem(toDoItem);
         setAssignee(assignee);
     }

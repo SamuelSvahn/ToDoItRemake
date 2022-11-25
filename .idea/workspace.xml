@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2173b0e7-a027-45db-ad6e-126c29b45e59" name="Changes" comment="all classes implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/View/ConsoleUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/View/MenuActions.java" afterDir="false" />
+    <list default="true" id="2173b0e7-a027-45db-ad6e-126c29b45e59" name="Changes" comment="Working on implementing design pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/AppUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/ToDoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/ToDoItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/ToDoItemTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/ToDoItemTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/View/ConsoleUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/View/ConsoleUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +80,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1669292350849</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Working on implementing design pattern">
+      <created>1669388319844</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1669388319844</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +105,7 @@
     <MESSAGE value="All dao and impl done, next do logics" />
     <MESSAGE value="two implement classes done" />
     <MESSAGE value="all classes implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="all classes implemented" />
+    <MESSAGE value="Working on implementing design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on implementing design pattern" />
   </component>
 </project>

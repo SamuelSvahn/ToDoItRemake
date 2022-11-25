@@ -10,8 +10,7 @@ import java.util.Scanner;
 public class ConsoleUI {
 
 
-
-    public MenuActions displayMenu(){
+    public MenuActions displayMenu() {
         System.out.println("Welcome to this Application");
         System.out.println("Choose one operation");
 
@@ -23,40 +22,40 @@ public class ConsoleUI {
 
         System.out.println("Write your choice: ");
         int command = getNumber();
-        switch (command){
+        switch (command) {
             case 1:
-                return MenuActions.CREATE_USER;
+                return MenuActions.REGISTER;
             case 2:
                 return MenuActions.CREATE_TASK;
             case 3:
                 return MenuActions.DISPLAY_USERS;
             case 4:
                 return MenuActions.DISPLAY_TASKS;
-            case 5:
+            default:
                 return MenuActions.EXIT;
         }
 
     }
 
-    public int getNumber(){
+    public int getNumber() {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
     }
 
-    public String getString (){
+    public String getString() {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
 
     }
 
-    public Person getPersonInformation(){
+    public Person getPersonInformation() {
         System.out.println("Pick Username: ");
         String username = getString();
 
         System.out.println("Pick password: ");
         String password = getString();
 
-        AppUser appUser = new AppUser(username,password, AppRole.ROLE_APP_USER);
+        AppUser appUser = new AppUser(username, password, AppRole.ROLE_APP_USER);
 
         System.out.println("Write your First Name: ");
         String firstName = getString();
@@ -64,18 +63,20 @@ public class ConsoleUI {
         System.out.println("Write your Last Name: ");
         String lastName = getString();
 
-        Person person = new Person(firstName,lastName,appUser);
+        Person person = new Person(firstName, lastName, appUser);
 
         return person;
 
 
     }
-    public void displayPersonInformation(Person person){
+
+    public void displayPersonInformation(Person person) {
         System.out.println(person.toString());
 
 
     }
-    public ToDoItemTask getTodoItemData(){
+
+    public ToDoItemTask getTodoItemData() {
         System.out.println("Title of Task: ");
         String title = getString();
 
@@ -83,44 +84,44 @@ public class ConsoleUI {
         String description = getString();
 
         System.out.println("Deadline for the Task (YYYY-MM-DD): ");
-        String deadline= getString();
+        String deadline = getString();
 
         System.out.println("Person ID: ");
         int personId = getNumber();
 
-        ToDoItem toDoItemInformation = new ToDoItem(title,description, LocalDate.parse(deadline));
+        ToDoItem toDoItemInformation = new ToDoItem(title, description, LocalDate.parse(deadline));
 
 
         Person personInfo = new Person();
         personInfo.setId(personId);
-        ToDoItemTask toDoItemTask = new ToDoItemTask(toDoItemInformation,personInfo);
+        ToDoItemTask toDoItemTask = new ToDoItemTask(toDoItemInformation, personInfo);
 
 
         return toDoItemTask;
 
-        }
+    }
 
 
-
-    public void displayToDoInformation(ToDoItemTask toDoItemTask){
+    public void displayToDoInformation(ToDoItemTask toDoItemTask) {
         System.out.println(toDoItemTask.toString());
 
     }
-    public void displayToDoInformation(Collection<ToDoItemTask> toDoItemTasks){
-        for(ToDoItemTask toDoItemTask: toDoItemTasks ){
+
+    public void displayToDoInformation(Collection<ToDoItemTask> toDoItemTasks) {
+        for (ToDoItemTask toDoItemTask : toDoItemTasks) {
             System.out.println(toDoItemTask);
         }
 
     }
 
-    public void displayUsers(Person person){
+    public void displayUsers(Person person) {
         System.out.println(person.toString());
 
 
     }
 
-    public void displayUsers(Collection<Person> persons){
-        for(Person person: persons){
+    public void displayUsers(Collection<Person> persons) {
+        for (Person person : persons) {
             System.out.println(person);
         }
 
